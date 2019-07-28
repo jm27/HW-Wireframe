@@ -1,9 +1,34 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: '#777';
+    background: '#777';
+    width: '960px';
+    font-size: '18px';
+}
+
 .header{
     display: block;
-    position: fixed;
-    padding: 15px;
-    background: gray;
+    position: top;
+    padding: 50px;
+    background: #ebebeb;
+    text-align: center;
+    color: red;
+}
+
+.nav{
+    display: block;
+    position: relative;
+    padding: 50px;
+    background: #ebebeb;
+    text-align: center;
+    color: red;
+    border-color: black;
+    border: 10px
+}
+
+.footer{
+    position: bottom;
+    background: #ebebeb;
     text-align: center;
     color: chartreuse;
-    box-sizing: border-box;
 }
