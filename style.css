@@ -3,32 +3,120 @@ body{
     color: '#777';
     background: '#777';
     width: '960px';
-    font-size: '18px';
+    font-size: 12;
+    margin: 0;
+    padding: 0;
 }
 
 .header{
-    display: block;
-    position: top;
     padding: 50px;
     background: #ebebeb;
     text-align: center;
     color: red;
+    border: 2px solid darkred;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .nav{
     display: block;
     position: relative;
+    padding: 20px;
+    background: #399292;
+    text-align: center;
+    color: red;
+    border: 2px solid darkred;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.section{
+    display: block;
+    position: relative;
+    padding: 20px;
+    background: #399292;
+    text-align: center;
+    color: red;
+    border: 2px solid darkred;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 10%;
+    /* margin-right:; */
+    float: left;
+    width: 37.5%;
+}
+
+.aside{
+    display: block;
+    position: relative;
+    padding: 50px;
+    background: #399292;
+    text-align: center;
+    color: red;
+    border: 2px solid darkred;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 20px;
+    /* margin-right: 10%; */
+    float: left;
+    width: 30%;
+    height: 345px;
+}
+
+.footer{
     padding: 50px;
     background: #ebebeb;
     text-align: center;
     color: red;
-    border-color: black;
-    border: 10px
+    border: 2px solid darkred;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    clear: both;
 }
 
-.footer{
-    position: bottom;
-    background: #ebebeb;
-    text-align: center;
-    color: chartreuse;
+.article
+{
+    color: #ebebeb;
+    background: #777;
+    border: 2px solid darkred;
+    padding: 20px;
+    float: left;
+    width:91.5%;
+    height: 60%;
+    margin-bottom: 10px;
 }
+
+#headers{
+    border: 2px solid darkred;
+    background: rgb(212, 12, 12);
+    color: white;
+    clear: both;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#paragraph{
+    border: 2px solid darkred;
+    background: rgb(212, 12, 12);
+    color: white;
+    clear: both;
+}
+
+* Header, Nav, Section, Aside, and Footer
+     * background: '#ebebeb'
+.Article
+{
+    color: '#ebebeb',
+    /* background: #777'; */
+}
+   * h1 and p
+     * color: '#777',
+     * background: '#ebebeb'
+3. The width of the section should be:
+   * section: 495px
